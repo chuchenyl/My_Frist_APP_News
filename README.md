@@ -2,7 +2,16 @@
 2020寒假实验室考核
 
 # 基本样式
-## 新闻页面
+<table>
+    <tr>
+        <td ><center><img src="https://img.imgdb.cn/item/604ce6d65aedab222c83e505.jpg" height="720" width="324" >图1  主页 </center></td>
+        <td ><center><img src="https://img.imgdb.cn/item/604ce6d65aedab222c83e50b.jpg" height="720" width="324"  >图2 暗夜模式下主页</center></td>
+    </tr>
+    <tr>
+        <td><center><img src="https://img.imgdb.cn/item/604ce6d65aedab222c83e4f8.jpg" height="720" width="324" >图3 测试页面</center></td>
+        <td ><center><img src="https://img.imgdb.cn/item/604ce6d65aedab222c83e4fe.jpg" height="720" width="324"  >图4 侧滑栏</center> </td>
+    </tr>
+</table>
 
 
 # 实现过程
