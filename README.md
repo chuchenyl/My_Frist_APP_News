@@ -36,6 +36,7 @@
 > > Only the original thread that created a view hierarchy can touch its views.[解决方案 : activity?.runOnUiThread{...}] (不能在子线程中刷新UI)  
 > > ViewPager可通过触摸左右切换页面，关闭 [解决方案 : 自建 NoScrollViewPager 继承于 ViewPager 禁用 onInterceptTouchEvent 和 onTouchEvent]  
 > > Unable to start activity ComponentInfo{com.app/com.app.MainActivity}: android.os.NetworkOnMainThreadException [解决方案 : thread {...}] (不能在主线程中进行网络请求)  
+>   
 > 未解决：
 > > 每日API(100次)请求完后，APP闪退，多次打开才可正常显示为空白  
 > > 手机暗夜模式下 ToolBar 上方标题仍显示[正常情况不显示]  
