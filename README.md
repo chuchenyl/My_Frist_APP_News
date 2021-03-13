@@ -17,7 +17,7 @@
 
 # 遇到的问题
 > 已解决：
-> > Only the original thread that created a view hierarchy can touch its views.[解决方案：activity?.runOnUiThread{}]  
+> > Only the original thread that created a view hierarchy can touch its views.[解决方案:activity?.runOnUiThread{}]  
 > > 
 > >
 > 未解决：
