@@ -11,9 +11,13 @@
 > > ToolBar内嵌套CircleImageView[圆形图片框(第三方)]  
 > > ToolBar内嵌套CardView{为实现搜索框圆角化} 再嵌套RelativeLayout  
 > > RelativeLayout嵌套ImageView[显示搜索图标]   EditText[实现内容输入]  
-> 
-> 
-> 
+> > 
+> 下拉刷新：
+> > 参考 https://github.com/hanks-zyh/SwipeRefreshLayout  
+> 多页滑动：
+> > 参考 https://www.open-open.com/lib/view/open1453126286276.html  
+> 侧滑栏：
+> > 参考 https://www.bilibili.com/video/BV1Qp4y1S7b8?t=786  
 
 # 遇到的问题
 > 已解决：
