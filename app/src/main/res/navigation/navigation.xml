@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/testFragment">
+    <fragment
+        android:id="@+id/testFragment"
+        android:name="com.novices.news.TestFragment"
+        android:label="@string/test_Fragment_title" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.novices.news.NewsFragment"
+        android:label="@string/news_Fragment_title" />
+</navigation>

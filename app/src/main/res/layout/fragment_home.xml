@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar_home"
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginRight="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/lty15"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginRight="10dp"
+                app:cardElevation="0dp"
+                android:layout_height="30dp"
+                app:cardCornerRadius="15dp">
+                <RelativeLayout
+                    android:background="#81D4FA"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="8dp"
+                    android:paddingRight ="8dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/ic_search"
+                        android:layout_width="20dp"
+                        android:src="@drawable/ic_search"
+                        android:layout_centerVertical="true"
+                        android:layout_height="20dp">
+
+                    </ImageView>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:background="#81D4FA"
+                        android:layout_toRightOf="@id/ic_search"
+                        android:layout_centerVertical="true"
+                        android:layout_height="30dp">
+
+                    </EditText>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/TL_News"
+            app:tabMode="scrollable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#F6F6F6"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/VP_News"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

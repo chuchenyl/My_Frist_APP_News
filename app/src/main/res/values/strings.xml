@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <string name="test_Fragment_title">Text</string>
+    <string name="news_Fragment_title">News</string>
+
+</resources>
