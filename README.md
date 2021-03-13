@@ -7,15 +7,17 @@
 
 # 实现过程
 > ToolBar部分：
-> > AppBarLayout内嵌套ToolBar
+> > AppBarLayout内嵌套ToolBar  
 > > ToolBar内嵌套CircleImageView[圆形图片框(第三方)]  
 > > ToolBar内嵌套CardView{为实现搜索框圆角化} 再嵌套RelativeLayout  
 > > RelativeLayout嵌套ImageView[显示搜索图标]   EditText[实现内容输入]  
-> > 
+> 
 > 下拉刷新：
 > > 参考 https://github.com/hanks-zyh/SwipeRefreshLayout  
+> 
 > 多页滑动：
 > > 参考 https://www.open-open.com/lib/view/open1453126286276.html  
+> 
 > 侧滑栏：
 > > 参考 https://www.bilibili.com/video/BV1Qp4y1S7b8?t=786  
 
@@ -41,4 +43,4 @@
 > 数据未本地化  
 > 每日API(100次)请求完后，APP闪退，多次打开才可正常显示为空白  
 > 手机暗夜模式下 ToolBar 上方标题仍显示[正常情况不显示]  
-> 好多功能没写(例如：搜索，测试页，侧滑栏功能...)  
+> 好多功能没写(例如：搜索，测试页，侧滑栏功能...)
